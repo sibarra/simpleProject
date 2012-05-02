@@ -11,6 +11,12 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20120502080722) do
+
+  create_table "sections", :force => true do |t|
+    t.string "name"
+    t.string "title"
+    t.string "description"
+  end
 
 end
